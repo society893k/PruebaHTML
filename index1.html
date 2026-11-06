@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Tecnología</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #101827;
+            color: white;
+        }
+
+        header {
+            background-color: #17243a;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #00d4ff;
+            font-size: 35px;
+        }
+
+        nav {
+            background-color: #0b1220;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00d4ff;
+        }
+
+        .principal {
+            text-align: center;
+            padding: 70px 20px;
+            background: linear-gradient(135deg, #17243a, #064b70);
+        }
+
+        .principal h2 {
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        .principal p {
+            font-size: 18px;
+        }
+
+        .contenido {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .contenido h2 {
+            color: #00d4ff;
+            margin-bottom: 30px;
+        }
+
+        .tarjetas {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .tarjeta {
+            background-color: #1e2c42;
+            padding: 30px;
+            width: 280px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-8px);
+            background-color: #263c59;
+        }
+
+        .tarjeta h3 {
+            color: #00d4ff;
+            margin-bottom: 15px;
+        }
+
+        .tarjeta p {
+            line-height: 1.5;
+        }
+
+        .contacto {
+            background-color: #17243a;
+            text-align: center;
+            padding: 35px;
+        }
+
+        footer {
+            background-color: #0b1220;
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>TECHZONE</h1>
+        <p>Tu mundo de tecnología e informática</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="principal" id="inicio">
+        <h2>Bienvenido a TechZone</h2>
+        <p>Descubre el mundo de la informática, las redes y la tecnología.</p>
+    </section>
+
+    <section class="contenido" id="servicios">
+        <h2>Nuestros servicios</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+                <h3>💻 Reparación de PC</h3>
+                <p>Solucionamos problemas de hardware y software de tu ordenador.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>🌐 Redes informáticas</h3>
+                <p>Configuración de redes, routers, servidores y conexiones.</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>🔒 Ciberseguridad</h3>
+                <p>Protegemos tus equipos y datos frente a amenazas informáticas.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: info@techzone.com</p>
+        <p>Teléfono: 600 123 456</p>
+    </section>
+
+    <footer>
+        <p>© 2026 TechZone - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
